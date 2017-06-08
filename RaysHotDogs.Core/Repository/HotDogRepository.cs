@@ -41,7 +41,39 @@ namespace RaysHotDogs.Core.Repository
 						Ingredients = new List<string>(){ "Baked bun", "Gourmet Sausage", "Sharp cheddar", "Mushroom bits"},
 						Price = 10,
 						IsFavorite = false
+					},
+					new HotDog()
+					{
+						HotDogId = 3,
+						Name = "Long Dog",
+						ShortDescription = "Hungry?",
+						Description = "Standard Hot Dog but simply longer to fight hunger.",
+						ImagePath = "hotdog3",
+						Available = true,
+						PrepTime = 10,
+						Ingredients = new List<string>(){ "Long bun", "Xtra long sausage", "Long ketchup"},
+						Price = 8,
+                        IsFavorite = true
 					}
+                }
+            },
+            new HotDogGroup()
+            {
+                HotDogGroupId = 2, Title = "Veggie lovers", ImagePath = "", HotDogs = new List<HotDog>()
+                {
+                    new HotDog()
+                    {
+                        HotDogId = 4,
+                        Name = "Veggie Hot Dog.",
+                        ShortDescription = "",
+                        Description = "",
+                        ImagePath = "hotdog4",
+                        Available = true,
+                        PrepTime = 0,
+                        Ingredients = new List<string>(){ "Whole wheat bun", "Tofu dog", "Organic mustard" },
+                        Price = 9,
+                        IsFavorite = false
+                    }
                 }
             }
         };
