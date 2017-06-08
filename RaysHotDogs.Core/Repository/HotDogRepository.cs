@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using RaysHotDogs.Core.Model;
 
 namespace RaysHotDogs.Core.Repository
@@ -10,6 +11,56 @@ namespace RaysHotDogs.Core.Repository
         {
         }
 
+		// HotDog related functions
+		public List<HotDog> GetAllHotDogs()
+        {
+            IEnumerable<HotDog> hotDogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
+
+                select hotDog;
+            return hotDogs.ToList<HotDog>();
+        }
+
+        public HotDog GetHotDogById(int hotDogId)
+        {
+            IEnumerable<HotDog> hotDogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
+                    where hotDog.HotDogId == hotDogId
+                select hotDog;
+
+            return hotDogs.FirstOrDefault();
+        }
+
+        // Group related functions
+        public List<HotDogGroup> GetGroupedHotDogs()
+        {
+            return hotDogGroups;
+        }
+
+        public List<HotDog> GetHotDogsForGroup( int hotDogGroupId )
+        {
+            var group = hotDogGroups.Where(h => h.HotDogGroupId == hotDogGroupId).FirstOrDefault();
+
+            if (group != null)
+            {
+                return group.HotDogs;
+            }
+            return null;
+        }
+
+        public List<HotDog> GetFavoriteHotDogs()
+        {
+            IEnumerable<HotDog> hotDogs =
+                from hotDogGroup in hotDogGroups
+                from hotDog in hotDogGroup.HotDogs
+                    where hotDog.IsFavorite
+                select hotDog;
+            return hotDogs.ToList<HotDog>();
+        }
+
+        // Data variable
         private static List<HotDogGroup> hotDogGroups = new List<HotDogGroup>()
         {
             new HotDogGroup()
