@@ -1,9 +1,10 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{4BE9D043-F405-46C9-B73F-72025B88EAE4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.189D9258-620F-4424-9E10-30644DF615DA" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
