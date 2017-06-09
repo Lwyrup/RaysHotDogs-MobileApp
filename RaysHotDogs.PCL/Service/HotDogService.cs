@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using RaysHotDogs.PCL.Model;
-using RaysHotDogs.PCL.Repository;
+using RaysHotDogs.Core.Model;
+using RaysHotDogs.Core.Repository;
 
 namespace RaysHotDogs.Core.Service
 {

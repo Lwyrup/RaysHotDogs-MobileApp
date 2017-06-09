@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs", "RaysHotDogs\RaysHotDogs.csproj", "{4BE9D043-F405-46C9-B73F-72025B88EAE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.PCL", "RaysHotDogs.PCL\RaysHotDogs.PCL.csproj", "{41416579-667E-4935-A7BB-79B86CD123C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.Core", "RaysHotDogs.PCL\RaysHotDogs.Core.csproj", "{41416579-667E-4935-A7BB-79B86CD123C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

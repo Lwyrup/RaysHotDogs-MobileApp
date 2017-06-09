@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using RaysHotDogs.PCL.Model;
+using RaysHotDogs.Core.Model;
 
-namespace RaysHotDogs.PCL.Repository
+namespace RaysHotDogs.Core.Repository
 {
 	public class HotDogRepository
 	{

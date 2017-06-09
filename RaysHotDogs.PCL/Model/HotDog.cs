@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RaysHotDogs.PCL.Model
+namespace RaysHotDogs.Core.Model
 {
 	public class HotDog
 	{
