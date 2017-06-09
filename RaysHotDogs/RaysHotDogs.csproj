@@ -105,5 +105,11 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RaysHotDogs.PCL\RaysHotDogs.Core.csproj">
+      <Project>{41416579-667E-4935-A7BB-79B86CD123C5}</Project>
+      <Name>RaysHotDogs.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
