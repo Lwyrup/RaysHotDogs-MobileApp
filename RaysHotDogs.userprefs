@@ -1,8 +1,21 @@
-﻿<Properties StartupConfiguration="{4BE9D043-F405-46C9-B73F-72025B88EAE4}|Default">
+﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RaysHotDogs" expanded="True">
+            <Node name="RaysHotDogs" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Entitlements.plist" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.189D9258-620F-4424-9E10-30644DF615DA" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
