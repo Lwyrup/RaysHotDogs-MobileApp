@@ -24,6 +24,18 @@ namespace RaysHotDogs
         {
             base.ViewDidLoad();
             DatabindUI();
+
+            AddToCartButton.TouchUpInside += (sender, e) => 
+            {
+                UIAlertView message = new UIAlertView() { Title = "Ray's Hot Dogs", Message = "Hot dog(s) added to cart." };
+                message.AddButton("OK");
+                message.Show();
+            };
+
+            CancelButton.TouchUpInside += (sender, e) => 
+            {
+                //Stuff
+            };
         }
 
         private void DatabindUI()

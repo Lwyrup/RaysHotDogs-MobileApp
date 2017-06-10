@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="120" Column="204" />
+      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="37" Column="24" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
