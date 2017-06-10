@@ -14,87 +14,79 @@ namespace RaysHotDogs
     [Register ("HotDogDetailsViewController")]
     partial class HotDogDetailsViewController
     {
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UIButton AddToCartButton { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton AddToCartButton { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UITextField AmountText { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField AmountText { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UIButton CancelButton { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton CancelButton { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UIImageView HotDogImageView { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView HotDogImageView { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UITextView LongDescriptionText { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextView LongDescriptionText { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UILabel NameLabel { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel NameLabel { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UILabel PriceLabel { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel PriceLabel { get; set; }
 
-		[Outlet]
-		[GeneratedCode("iOS Designer", "1.0")]
-		UIKit.UILabel ShortDescriptionLabel { get; set; }
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel ShortDescriptionLabel { get; set; }
 
-		void ReleaseDesignerOutlets()
-		{
-			if (AddToCartButton != null)
-			{
-				AddToCartButton.Dispose();
-				AddToCartButton = null;
-			}
+        void ReleaseDesignerOutlets ()
+        {
+            if (AddToCartButton != null) {
+                AddToCartButton.Dispose ();
+                AddToCartButton = null;
+            }
 
-			if (AmountText != null)
-			{
-				AmountText.Dispose();
-				AmountText = null;
-			}
+            if (AmountText != null) {
+                AmountText.Dispose ();
+                AmountText = null;
+            }
 
-			if (CancelButton != null)
-			{
-				CancelButton.Dispose();
-				CancelButton = null;
-			}
+            if (CancelButton != null) {
+                CancelButton.Dispose ();
+                CancelButton = null;
+            }
 
-			if (HotDogImageView != null)
-			{
-				HotDogImageView.Dispose();
-				HotDogImageView = null;
-			}
+            if (HotDogImageView != null) {
+                HotDogImageView.Dispose ();
+                HotDogImageView = null;
+            }
 
-			if (LongDescriptionText != null)
-			{
-				LongDescriptionText.Dispose();
-				LongDescriptionText = null;
-			}
+            if (LongDescriptionText != null) {
+                LongDescriptionText.Dispose ();
+                LongDescriptionText = null;
+            }
 
-			if (NameLabel != null)
-			{
-				NameLabel.Dispose();
-				NameLabel = null;
-			}
+            if (NameLabel != null) {
+                NameLabel.Dispose ();
+                NameLabel = null;
+            }
 
-			if (PriceLabel != null)
-			{
-				PriceLabel.Dispose();
-				PriceLabel = null;
-			}
+            if (PriceLabel != null) {
+                PriceLabel.Dispose ();
+                PriceLabel = null;
+            }
 
-			if (ShortDescriptionLabel != null)
-			{
-				ShortDescriptionLabel.Dispose();
-				ShortDescriptionLabel = null;
-			}
-		}
+            if (ShortDescriptionLabel != null) {
+                ShortDescriptionLabel.Dispose ();
+                ShortDescriptionLabel = null;
+            }
+        }
     }
 }

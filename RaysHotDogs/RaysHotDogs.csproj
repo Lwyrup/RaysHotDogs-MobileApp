@@ -117,6 +117,7 @@
     <BundleResource Include="Images\hotdog2.jpg" />
     <BundleResource Include="Images\hotdog3.jpg" />
     <BundleResource Include="Images\hotdog4.jpg" />
+    <BundleResource Include="Images\homeimg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

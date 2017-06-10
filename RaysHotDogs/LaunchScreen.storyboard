@@ -1,27 +1,143 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
-	<dependencies>
-		<deployment identifier="iOS" />
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="EHf-IW-A2E">
-			<objects>
-				<viewController id="01J-lp-oVM" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Llm-lL-Icb" />
-						<viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="53" y="375" />
-		</scene>
-	</scenes>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" id="3" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="2" usesAttributedText="YES" adjustsFontSizeToFit="NO">
+                                <rect key="frame" x="16" y="118" width="368" height="126"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Ray's Hot Dogs">
+                                        <attributes>
+                                            <font key="NSFont" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" size="58"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <constraints>
+                                    <constraint id="10" firstAttribute="width" constant="368"/>
+                                    <constraint id="11" firstAttribute="height" constant="126"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="10"/>
+                                        <exclude reference="11"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="10"/>
+                                        <include reference="11"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) Ray's Hot Dogs 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="88" y="563" width="223" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="30" firstItem="4" firstAttribute="height" constant="21"/>
+                                    <constraint id="31" firstItem="4" firstAttribute="width" constant="223"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="30"/>
+                                        <exclude reference="31"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="30"/>
+                                        <include reference="31"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5" translatesAutoresizingMaskIntoConstraints="NO" alpha="0.35">
+                                <rect key="frame" x="16" y="282" width="368" height="156"/>
+                                <variation key="widthClass=compact" image="Images/homeimg.png">
+                                    <mask key="constraints">
+                                        <include reference="14"/>
+                                        <include reference="15"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="14" firstAttribute="width" constant="368"/>
+                                    <constraint id="15" firstAttribute="height" constant="156"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="14"/>
+                                        <exclude reference="15"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3"/>
+                                <exclude reference="4"/>
+                                <exclude reference="5"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8"/>
+                                <exclude reference="9"/>
+                                <exclude reference="16"/>
+                                <exclude reference="35"/>
+                                <exclude reference="36"/>
+                                <exclude reference="37"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3"/>
+                                <include reference="4"/>
+                                <include reference="5"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8"/>
+                                <include reference="9"/>
+                                <include reference="16"/>
+                                <include reference="35"/>
+                                <include reference="36"/>
+                                <include reference="37"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="8" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="16"/>
+                            <constraint id="9" firstItem="3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="118"/>
+                            <constraint id="16" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="16"/>
+                            <constraint id="35" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="16"/>
+                            <constraint id="36" firstItem="4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="88"/>
+                            <constraint id="37" firstItem="5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="282"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Images/hotdog1.jpg" width="1920" height="1281"/>
+        <image name="Images/hotdog2.jpg" width="700" height="467"/>
+        <image name="Images/hotdog3.jpg" width="1024" height="768"/>
+        <image name="Images/hotdog4.jpg" width="700" height="524"/>
+        <image name="Images/homeimg.png" width="1438" height="649"/>
+    </resources>
 </document>
