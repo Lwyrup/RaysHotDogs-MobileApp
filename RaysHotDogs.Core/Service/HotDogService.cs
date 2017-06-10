@@ -12,10 +12,10 @@ namespace RaysHotDogs.Core.Service
 		{
 		}
 
-        public List<HotDog> getAllHotDogs()
-        {
-            return hotDogRepository.GetAllHotDogs();
-        }
+		public List<HotDog> getAllHotDogs()
+		{
+			return hotDogRepository.GetAllHotDogs();
+		}
 
 		public List<HotDogGroup> getGroupedHotDogs()
 		{
@@ -27,9 +27,9 @@ namespace RaysHotDogs.Core.Service
 			return hotDogRepository.GetHotDogsForGroup(hotDogGroupId);
 		}
 
-        public HotDog getHotDogById(int hotDogId)
-        {
-            return hotDogRepository.GetHotDogById(hotDogId);
-        }
+		public HotDog getHotDogById(int hotDogId)
+		{
+			return hotDogRepository.GetHotDogById(hotDogId);
+		}
 	}
 }
