@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs.Core/Model/HotDog.cs" Line="78" Column="2" />
-      <File FileName="RaysHotDogs.Core/Model/HotDogGroup.cs" Line="36" Column="2" />
-      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="3" Column="16" />
-      <File FileName="RaysHotDogs.Core/Service/HotDogService.cs" Line="22" Column="28" />
+      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="120" Column="204" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -116,8 +116,8 @@ namespace RaysHotDogs.Core.Repository
 					{
 						HotDogId = 4,
 						Name = "Veggie Hot Dog.",
-						ShortDescription = "",
-						Description = "",
+                        ShortDescription = "All organic, tofu franks, just as good (or even better) than the classic dog.",
+						Description = "A vegetarian hot dog is a hot dog produced completely from non-meat products. Vegetarian hot dogs are sometimes eaten by non-vegetarians because they are low or non-fat, and have fewer calories.",
 						ImagePath = "hotdog4",
 						Available = true,
 						PrepTime = 0,

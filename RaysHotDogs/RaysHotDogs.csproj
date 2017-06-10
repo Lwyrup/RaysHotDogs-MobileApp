@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -110,6 +111,12 @@
       <Project>{C9422D4F-45D0-42A6-B450-A52E26908427}</Project>
       <Name>RaysHotDogs.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\hotdog1.jpg" />
+    <BundleResource Include="Images\hotdog2.jpg" />
+    <BundleResource Include="Images\hotdog3.jpg" />
+    <BundleResource Include="Images\hotdog4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
