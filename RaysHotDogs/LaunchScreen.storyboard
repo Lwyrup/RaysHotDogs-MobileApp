@@ -47,24 +47,21 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) Ray's Hot Dogs 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="88" y="563" width="223" height="21"/>
+                                <rect key="frame" x="89" y="563" width="223" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="45"/>
+                                    </mask>
+                                </variation>
                                 <constraints>
-                                    <constraint id="30" firstItem="4" firstAttribute="height" constant="21"/>
-                                    <constraint id="31" firstItem="4" firstAttribute="width" constant="223"/>
+                                    <constraint id="45" firstItem="4" firstAttribute="width" constant="223"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="30"/>
-                                        <exclude reference="31"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="30"/>
-                                        <include reference="31"/>
+                                        <exclude reference="45"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -95,12 +92,12 @@
                                 <exclude reference="5"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8"/>
                                 <exclude reference="9"/>
-                                <exclude reference="16"/>
-                                <exclude reference="35"/>
-                                <exclude reference="36"/>
                                 <exclude reference="37"/>
+                                <exclude reference="41"/>
+                                <exclude reference="42"/>
+                                <exclude reference="44"/>
+                                <exclude reference="46"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -110,21 +107,21 @@
                                 <include reference="5"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="8"/>
                                 <include reference="9"/>
-                                <include reference="16"/>
-                                <include reference="35"/>
-                                <include reference="36"/>
                                 <include reference="37"/>
+                                <include reference="41"/>
+                                <include reference="42"/>
+                                <include reference="44"/>
+                                <include reference="46"/>
                             </mask>
                         </variation>
                         <constraints>
-                            <constraint id="8" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="16"/>
                             <constraint id="9" firstItem="3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="118"/>
-                            <constraint id="16" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="16"/>
-                            <constraint id="35" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="16"/>
-                            <constraint id="36" firstItem="4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="88"/>
                             <constraint id="37" firstItem="5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="282"/>
+                            <constraint id="41" firstItem="5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX"/>
+                            <constraint id="42" firstItem="3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX"/>
+                            <constraint id="44" firstItem="4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX"/>
+                            <constraint id="46" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="20"/>
                         </constraints>
                     </view>
                 </viewController>
