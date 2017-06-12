@@ -3,6 +3,7 @@
     <Files>
       <File FileName="RaysHotDogs/Cells/HotDogListCell.cs" Line="57" Column="40" />
       <File FileName="RaysHotDogs/Main.storyboard" />
+      <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="31" Column="29" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

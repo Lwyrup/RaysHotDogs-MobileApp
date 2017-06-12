@@ -23,16 +23,16 @@ namespace RaysHotDogs.DataSource
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier) as UITableViewCell;
+            HotDogListCell cell = tableView.DequeueReusableCell(cellIdentifier) as HotDogListCell;
 
             if (cell == null)
-            {
-                cell = new UITableViewCell(UITableViewCellStyle.Default, cellIdentifier);
-            }
+               cell = new HotDogListCell(cellIdentifier);
 
-            var hotDog = hotDogs[indexPath.Row];
-            cell.TextLabel.Text = hotDog.Name;
-            cell.ImageView.Image = UIImage.FromFile("Images/hotdog" + hotDog.HotDogId + ".jpg");
+            cell.UpdateCell(
+                hotDogs[indexPath.Row].Name, 
+                hotDogs[indexPath.Row].Price.ToString(), 
+                UIImage.FromFile("Images/" + hotDogs[indexPath.Row].HotDogId + ".jpg")
+            );
 
             return cell;
         }
