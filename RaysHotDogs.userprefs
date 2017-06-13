@@ -2,8 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="34" Column="85" />
-      <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="52" Column="57" />
-      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="36" Column="24" />
+      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="34" Column="15" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

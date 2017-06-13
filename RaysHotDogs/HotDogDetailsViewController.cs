@@ -27,15 +27,15 @@ namespace RaysHotDogs
 
             AddToCartButton.TouchUpInside += (sender, e) => 
             {
-                UIAlertView message = new UIAlertView() { Title = "Ray's Hot Dogs", Message = "Hot dog(s) added to cart." };
-                message.AddButton("OK");
-                message.Show();
-                DismissViewController(true,() => {});
+                var alert = UIAlertController.Create( "Ray's Hot Dogs", "Hot dog(s) added to cart.", UIAlertControllerStyle.Alert );
+                alert.AddAction( UIAlertAction.Create( "Ok", UIAlertActionStyle.Default, 
+                    (UIAlertAction obj) => { DismissViewController(true, null); } ));
+                PresentViewController( alert, true, null );
             };
 
             CancelButton.TouchUpInside += (sender, e) => 
             {
-                DismissViewController(true, () => { });
+                DismissViewController(true, null);
             };
         }
 
