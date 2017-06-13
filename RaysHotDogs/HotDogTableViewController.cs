@@ -3,6 +3,7 @@ using System;
 using UIKit;
 using RaysHotDogs.Core.Service;
 using RaysHotDogs.DataSource;
+using RaysHotDogs.Core.Model;
 
 namespace RaysHotDogs
 {
@@ -15,23 +16,22 @@ namespace RaysHotDogs
 
         public override void ViewDidLoad()
         {
+            base.ViewDidLoad();
             var hotDogs = dataService.getAllHotDogs();
             var datasource = new HotDogDataSource(hotDogs, this);
             TableView.Source = datasource;
         }
 
-        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        public async void HotDogSelected(HotDog selectedHotDog)
         {
-            if (segue.Identifier == "HotDogDetailSegue")
+            HotDogDetailsViewController hotDogDetailsViewController =
+                this.Storyboard.InstantiateViewController("HotDogDetailsViewController") as HotDogDetailsViewController;
+            if (hotDogDetailsViewController != null)
             {
-                var hotDogDetailViewController = segue.DestinationViewController as HotDogDetailsViewController;
-                if (hotDogDetailViewController != null)
-                {
-                    var source = TableView.Source as HotDogDataSource;
-                    var rowPath = TableView.IndexPathForSelectedRow;
-                    var item = source.GetItem(rowPath.Row);
-                    hotDogDetailViewController.SelectedHotDog = item;
-                }
+                hotDogDetailsViewController.ModalTransitionStyle = UIModalTransitionStyle.PartialCurl;
+                hotDogDetailsViewController.SelectedHotDog = selectedHotDog;
+
+                await PresentViewControllerAsync(hotDogDetailsViewController, true);
             }
         }
     }
