@@ -30,14 +30,12 @@ namespace RaysHotDogs
                 UIAlertView message = new UIAlertView() { Title = "Ray's Hot Dogs", Message = "Hot dog(s) added to cart." };
                 message.AddButton("OK");
                 message.Show();
-
-                this.DismissModalViewController(true);
-                //this.DismissViewController(true,() => {});
+                DismissViewController(true,() => {});
             };
 
             CancelButton.TouchUpInside += (sender, e) => 
             {
-                this.DismissModalViewController(true);
+                DismissViewController(true, () => { });
             };
         }
 
