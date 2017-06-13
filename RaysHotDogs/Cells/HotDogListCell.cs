@@ -11,10 +11,6 @@ namespace RaysHotDogs
         UILabel priceLabel;
         UIImageView imageView;
 
-        public HotDogListCell()
-        {
-        }
-
         public HotDogListCell(NSString cellID) : base(UITableViewCellStyle.Default, cellID)
         {
             SelectionStyle = UITableViewCellSelectionStyle.Gray;
