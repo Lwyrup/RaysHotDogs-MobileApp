@@ -10,10 +10,10 @@ namespace RaysHotDogs.DataSource
     public class HotDogDataSource: UITableViewSource
     {
         private List<HotDog> hotDogs;
-        private UITableViewController tableController;
+        private HotDogTableViewController tableController;
         NSString cellIdentifier = new NSString("HotDogCell");
 
-        public HotDogDataSource(List<HotDog> hotDogs, UITableViewController callingController)
+        public HotDogDataSource(List<HotDog> hotDogs, HotDogTableViewController callingController)
         {
             this.hotDogs = hotDogs;
             this.tableController = callingController;
@@ -49,7 +49,9 @@ namespace RaysHotDogs.DataSource
 
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
-            tableController.PerformSegue("HotDogDetailSegue",tableController);
+            var selectedHotDog = hotDogs[indexPath.Row];
+            tableController.HotDogSelected(selectedHotDog);
+            tableView.DeselectRow(indexPath, true);
         }
     }
 }
