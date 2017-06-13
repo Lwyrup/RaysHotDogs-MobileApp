@@ -1,6 +1,9 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
+      <File FileName="RaysHotDogs/HotDogTableViewController.cs" Line="34" Column="85" />
+      <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="52" Column="57" />
+      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="40" Column="53" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
