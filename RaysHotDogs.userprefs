@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs/Main.storyboard" />
-      <File FileName="RaysHotDogs/MapViewController.cs" Line="36" Column="13" />
+      <File FileName="RaysHotDogs/MapViewController.cs" Line="26" Column="43" />
       <File FileName="RaysHotDogs Status" />
     </Files>
     <Pads>

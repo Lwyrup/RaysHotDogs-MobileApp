@@ -20,9 +20,11 @@ namespace RaysHotDogs
         {
             base.ViewDidLoad();
 
-            mapView = new MKMapView(View.Bounds);
-            mapView.AutoresizingMask = UIViewAutoresizing.FlexibleDimensions;
-            mapView.MapType = MKMapType.Standard;
+            mapView = new MKMapView(View.Bounds)
+            {
+                AutoresizingMask = UIViewAutoresizing.FlexibleDimensions,
+                MapType = MKMapType.Standard
+            };
             View.AddSubview(mapView);
 
             double latitude = 50.846732;
