@@ -35,7 +35,7 @@ namespace RaysHotDogs.DataSource
 
             cell.UpdateCell(
                 hotDogs[indexPath.Row].Name, 
-                hotDogs[indexPath.Row].Price.ToString(), 
+                String.Format("${0:0.00}", hotDogs[indexPath.Row].Price), 
                 UIImage.FromFile("Images/hotdog" + hotDogs[indexPath.Row].HotDogId + ".jpg")
             );
 
