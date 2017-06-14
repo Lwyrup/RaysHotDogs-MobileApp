@@ -14,7 +14,7 @@ namespace RaysHotDogs
         public HotDogListCell(NSString cellID) : base(UITableViewCellStyle.Default, cellID)
         {
             SelectionStyle = UITableViewCellSelectionStyle.Gray;
-            ContentView.BackgroundColor = UIColor.FromRGB(254, 199, 101);
+            ContentView.BackgroundColor = UIColor.FromRGB(242,174,64);
             imageView = new UIImageView();
 
             nameLabel = new UILabel()
