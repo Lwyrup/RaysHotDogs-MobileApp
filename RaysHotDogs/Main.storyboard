@@ -509,15 +509,19 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.94901960784313721" green="0.68235294117647061" blue="0.25098039215686274" alpha="1"/>
                             <mask key="subviews">
                                 <include reference="988"/>
+                                <include reference="1007"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1001"/>
-                                <include reference="1002"/>
+                                <include reference="1009"/>
+                                <include reference="1010"/>
+                                <include reference="1012"/>
+                                <include reference="1015"/>
+                                <include reference="1016"/>
                             </mask>
                         </variation>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="988" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="94" y="244" width="212" height="112"/>
+                                <rect key="frame" x="36" y="518" width="328" height="66"/>
                                 <state key="normal" title="Take picture">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -525,8 +529,8 @@
                                 <variation key="widthClass=compact">
                                     <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                     <mask key="constraints">
-                                        <include reference="999"/>
-                                        <include reference="1000"/>
+                                        <include reference="1013"/>
+                                        <include reference="1014"/>
                                     </mask>
                                 </variation>
                                 <userDefinedRuntimeAttributes>
@@ -535,31 +539,60 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <constraints>
-                                    <constraint id="999" firstItem="988" firstAttribute="width" constant="212"/>
-                                    <constraint id="1000" firstItem="988" firstAttribute="height" constant="112"/>
+                                    <constraint id="1013" firstItem="988" firstAttribute="width" constant="328"/>
+                                    <constraint id="1014" firstItem="988" firstAttribute="height" constant="66"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="999"/>
-                                        <exclude reference="1000"/>
+                                        <exclude reference="1013"/>
+                                        <exclude reference="1014"/>
                                     </mask>
                                 </variation>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1007" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="32" y="97" width="336" height="386"/>
+                                <constraints>
+                                    <constraint id="1008" firstAttribute="width" secondItem="1007" secondAttribute="height" multiplier="168:193"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1008"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1008"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="988"/>
+                                <exclude reference="1007"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1001"/>
-                                <exclude reference="1002"/>
+                                <exclude reference="1009"/>
+                                <exclude reference="1010"/>
+                                <exclude reference="1012"/>
+                                <exclude reference="1015"/>
+                                <exclude reference="1016"/>
                             </mask>
                         </variation>
                         <constraints>
-                            <constraint id="1001" firstItem="988" firstAttribute="centerY" secondItem="919" secondAttribute="centerY"/>
-                            <constraint id="1002" firstItem="988" firstAttribute="centerX" secondItem="919" secondAttribute="centerX"/>
+                            <constraint id="1009" firstItem="1007" firstAttribute="centerX" secondItem="919" secondAttribute="centerX"/>
+                            <constraint id="1010" firstItem="1007" firstAttribute="top" secondItem="919" secondAttribute="top" constant="97"/>
+                            <constraint id="1012" firstItem="919" firstAttribute="centerY" secondItem="1007" secondAttribute="centerY" constant="10">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint id="1015" firstItem="988" firstAttribute="centerX" secondItem="919" secondAttribute="centerX"/>
+                            <constraint id="1016" firstItem="919" firstAttribute="bottom" secondItem="988" secondAttribute="bottom" constant="16"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="TakePictureButton" destination="988" id="name-outlet-988"/>
+                        <outlet property="HotDogImage" destination="1007" id="name-outlet-1007"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="920" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
