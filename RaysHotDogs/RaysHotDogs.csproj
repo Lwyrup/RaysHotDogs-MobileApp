@@ -113,6 +113,18 @@
       <DependentUpon>HotDogTableViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Cells\HotDogListCell.cs" />
+    <Compile Include="FavoriteTableViewController.cs" />
+    <Compile Include="FavoriteTableViewController.designer.cs">
+      <DependentUpon>FavoriteTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeatLoversTableViewController.cs" />
+    <Compile Include="MeatLoversTableViewController.designer.cs">
+      <DependentUpon>MeatLoversTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeggieLoversTableViewController.cs" />
+    <Compile Include="VeggieLoversTableViewController.designer.cs">
+      <DependentUpon>VeggieLoversTableViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">
@@ -126,6 +138,8 @@
     <BundleResource Include="Images\hotdog3.jpg" />
     <BundleResource Include="Images\hotdog4.jpg" />
     <BundleResource Include="Images\homeimg.png" />
+    <BundleResource Include="Images\plant-element-7.png" />
+    <BundleResource Include="Images\animal-element-7.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
