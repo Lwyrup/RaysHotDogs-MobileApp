@@ -3,20 +3,19 @@ using UIKit;
 using Foundation;
 using System.Collections.Generic;
 using RaysHotDogs.Core.Model;
-using RaysHotDogs.Core.Service;
 
 namespace RaysHotDogs.DataSource
 {
     public class HotDogDataSource: UITableViewSource
     {
-        private List<HotDog> hotDogs;
-        private HotDogTableViewController tableController;
+        List<HotDog> hotDogs;
+        HotDogTableViewController callingController;
         NSString cellIdentifier = new NSString("HotDogCell");
 
         public HotDogDataSource(List<HotDog> hotDogs, HotDogTableViewController callingController)
         {
             this.hotDogs = hotDogs;
-            this.tableController = callingController;
+            this.callingController = callingController;
         }
 
         public override nint RowsInSection(UITableView tableview, nint section)
@@ -50,7 +49,7 @@ namespace RaysHotDogs.DataSource
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
             var selectedHotDog = hotDogs[indexPath.Row];
-            tableController.HotDogSelected(selectedHotDog);
+            callingController.HotDogSelected(selectedHotDog);
             tableView.DeselectRow(indexPath, true);
         }
     }
