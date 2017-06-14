@@ -14,8 +14,25 @@ namespace RaysHotDogs
     [Register ("PictureViewController")]
     partial class PictureViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView HotDogImage { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton TakePictureButton { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (HotDogImage != null) {
+                HotDogImage.Dispose ();
+                HotDogImage = null;
+            }
+
+            if (TakePictureButton != null) {
+                TakePictureButton.Dispose ();
+                TakePictureButton = null;
+            }
         }
     }
 }
