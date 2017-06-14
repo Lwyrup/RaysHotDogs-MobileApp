@@ -1,4 +1,3 @@
-using Foundation;
 using System;
 using UIKit;
 using RaysHotDogs.Core.Model;
@@ -8,38 +7,20 @@ namespace RaysHotDogs
 {
     public partial class HotDogDetailsViewController : UIViewController
     {
-        public HotDog SelectedHotDog
-        {
-            set;
-            get;
-        }
-
+        public HotDog SelectedHotDog{ set; get; }
         public HotDogDetailsViewController (IntPtr handle) : base (handle)
         {
             HotDogDataService hotDogDataService = new HotDogDataService();
-            SelectedHotDog = hotDogDataService.getHotDogById(3);
         }
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
             DatabindUI();
-
-            AddToCartButton.TouchUpInside += (sender, e) => 
-            {
-                var alert = UIAlertController.Create( "Ray's Hot Dogs", "Hot dog(s) added to cart.", UIAlertControllerStyle.Alert );
-                alert.AddAction( UIAlertAction.Create( "Ok", UIAlertActionStyle.Default, 
-                    (UIAlertAction obj) => { DismissViewController(true, null); } ));
-                PresentViewController( alert, true, null );
-            };
-
-            CancelButton.TouchUpInside += (sender, e) => 
-            {
-                DismissViewController(true, null);
-            };
+            AddButtonEvents();
         }
 
-        private void DatabindUI()
+        void DatabindUI()
         {
             UIImage img = UIImage.FromFile("Images/" + SelectedHotDog.ImagePath + ".jpg");
             HotDogImageView.Image = img;
@@ -47,6 +28,22 @@ namespace RaysHotDogs
             ShortDescriptionLabel.Text = SelectedHotDog.ShortDescription;
             LongDescriptionText.Text = SelectedHotDog.Description;
             PriceLabel.Text = String.Format("${0:0.00}", SelectedHotDog.Price);
+        }
+
+        void AddButtonEvents()
+        {
+			AddToCartButton.TouchUpInside += (sender, e) =>
+			{
+				var alert = UIAlertController.Create("Ray's Hot Dogs", "Hot dog(s) added to cart.", UIAlertControllerStyle.Alert);
+				alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default,
+					(UIAlertAction obj) => { DismissViewController(true, null); }));
+				PresentViewController(alert, true, null);
+			};
+
+			CancelButton.TouchUpInside += (sender, e) =>
+			{
+				DismissViewController(true, null);
+			};
         }
     }
 }

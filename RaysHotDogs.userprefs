@@ -3,10 +3,12 @@
     <Files>
       <File FileName="RaysHotDogs/Cells/HotDogListCell.cs" Line="1" Column="1" />
       <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="5" Column="30" />
+      <File FileName="RaysHotDogs/FavoriteTableViewController.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="22" Column="9" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.25E2879B-7F43-43B6-B05B-27315D2581F2" />
+  <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.189D9258-620F-4424-9E10-30644DF615DA" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

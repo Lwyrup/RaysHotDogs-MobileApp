@@ -1,7 +1,4 @@
-using Foundation;
 using System;
-using UIKit;
-using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
 using RaysHotDogs.DataSource;
 
