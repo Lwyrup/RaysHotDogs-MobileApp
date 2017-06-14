@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs/Main.storyboard" />
-      <File FileName="RaysHotDogs/VeggieLoversTableViewController.cs" Line="21" Column="73" />
-      <File FileName="RaysHotDogs/Cells/HotDogListCell.cs" Line="53" Column="31" />
-      <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="37" Column="46" />
-      <File FileName="RaysHotDogs/HotDogDetailsViewController.cs" Line="49" Column="80" />
+      <File FileName="RaysHotDogs/Cells/HotDogListCell.cs" Line="1" Column="1" />
+      <File FileName="RaysHotDogs/DataSource/HotDogDataSource.cs" Line="5" Column="30" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
