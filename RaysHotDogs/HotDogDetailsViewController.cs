@@ -46,7 +46,7 @@ namespace RaysHotDogs
             NameLabel.Text = SelectedHotDog.Name;
             ShortDescriptionLabel.Text = SelectedHotDog.ShortDescription;
             LongDescriptionText.Text = SelectedHotDog.Description;
-            PriceLabel.Text = "$" + SelectedHotDog.Price.ToString();
+            PriceLabel.Text = String.Format("${0:0.00}", SelectedHotDog.Price);
         }
     }
 }
