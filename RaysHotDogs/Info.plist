@@ -35,6 +35,6 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>XSLaunchImageAssets</key>
-	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<string>Assets.xcassets/LaunchImage-1.launchimage</string>
 </dict>
 </plist>
