@@ -126,6 +126,10 @@
     <Compile Include="VeggieLoversTableViewController.designer.cs">
       <DependentUpon>VeggieLoversTableViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="PictureViewController.cs" />
+    <Compile Include="PictureViewController.designer.cs">
+      <DependentUpon>PictureViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">

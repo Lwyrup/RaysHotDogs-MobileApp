@@ -281,10 +281,14 @@
                             <color key="backgroundColor" colorSpace="calibratedRGB" red="0.9882352941176471" green="0.73725490196078436" blue="0.32156862745098042" alpha="1"/>
                             <mask key="subviews">
                                 <include reference="153"/>
+                                <include reference="911"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="177"/>
-                                <include reference="178"/>
+                                <include reference="907"/>
+                                <include reference="908"/>
+                                <include reference="912"/>
+                                <include reference="913"/>
+                                <include reference="914"/>
                             </mask>
                         </variation>
                         <subviews>
@@ -293,40 +297,66 @@
                                 <state key="normal" title="Create your order">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
                                     <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                     <mask key="constraints">
-                                        <include reference="165"/>
-                                        <include reference="174"/>
-                                    </mask>
-                                </variation>
-                                <constraints>
-                                    <constraint id="165" firstItem="153" firstAttribute="width" constant="155"/>
-                                    <constraint id="174" firstItem="153" firstAttribute="height" constant="30"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="165"/>
-                                        <exclude reference="174"/>
+                                        <include reference="906"/>
                                     </mask>
                                 </variation>
                                 <connections>
                                     <segue id="895" destination="567" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="906" firstItem="153" firstAttribute="width" constant="155"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="906"/>
+                                    </mask>
+                                </variation>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="911" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="123" y="225" width="155" height="30"/>
+                                <state key="normal" title="Snap a hot dog selfie">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </variation>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue id="986" destination="918" kind="show"/>
                                 </connections>
                             </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="153"/>
+                                <exclude reference="911"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="177"/>
-                                <exclude reference="178"/>
+                                <exclude reference="907"/>
+                                <exclude reference="908"/>
+                                <exclude reference="912"/>
+                                <exclude reference="913"/>
+                                <exclude reference="914"/>
                             </mask>
                         </variation>
                         <constraints>
-                            <constraint id="177" firstItem="153" firstAttribute="leading" secondItem="150" secondAttribute="leading" constant="122"/>
-                            <constraint id="178" firstItem="153" firstAttribute="top" secondItem="150" secondAttribute="top" constant="140"/>
+                            <constraint id="907" firstItem="153" firstAttribute="centerX" secondItem="150" secondAttribute="centerX"/>
+                            <constraint id="908" firstItem="153" firstAttribute="top" secondItem="150" secondAttribute="top" constant="140"/>
+                            <constraint id="912" firstItem="911" firstAttribute="centerX" secondItem="150" secondAttribute="centerX"/>
+                            <constraint id="913" firstItem="911" firstAttribute="width" secondItem="153" secondAttribute="width"/>
+                            <constraint id="914" firstItem="911" firstAttribute="top" secondItem="150" secondAttribute="top" constant="225"/>
                         </constraints>
                     </view>
                     <navigationItem title="Welcome to Ray's Hot Dogs" id="256" key="navigationItem"/>
@@ -463,6 +493,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="600" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="223" y="522"/>
+        </scene>
+        <scene sceneID="917">
+            <objects>
+                <viewController id="918" sceneMemberID="viewController" customClass="PictureViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="915"/>
+                        <viewControllerLayoutGuide type="bottom" id="916"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="919">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="widthClass=compact">
+                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.94901960784313721" green="0.68235294117647061" blue="0.25098039215686274" alpha="1"/>
+                            <mask key="subviews">
+                                <include reference="988"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1001"/>
+                                <include reference="1002"/>
+                            </mask>
+                        </variation>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="988" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="94" y="244" width="212" height="112"/>
+                                <state key="normal" title="Take picture">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections/>
+                                <variation key="widthClass=compact">
+                                    <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="999"/>
+                                        <include reference="1000"/>
+                                    </mask>
+                                </variation>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <constraints>
+                                    <constraint id="999" firstItem="988" firstAttribute="width" constant="212"/>
+                                    <constraint id="1000" firstItem="988" firstAttribute="height" constant="112"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="999"/>
+                                        <exclude reference="1000"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="988"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1001"/>
+                                <exclude reference="1002"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="1001" firstItem="988" firstAttribute="centerY" secondItem="919" secondAttribute="centerY"/>
+                            <constraint id="1002" firstItem="988" firstAttribute="centerX" secondItem="919" secondAttribute="centerX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="920" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1329" y="1172"/>
         </scene>
     </scenes>
     <resources>
