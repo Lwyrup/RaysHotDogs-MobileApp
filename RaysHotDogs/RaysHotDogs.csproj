@@ -133,6 +133,10 @@
     <Compile Include="PictureViewController.designer.cs">
       <DependentUpon>PictureViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MapViewController.cs" />
+    <Compile Include="MapViewController.designer.cs">
+      <DependentUpon>MapViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">

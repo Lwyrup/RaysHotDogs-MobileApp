@@ -264,7 +264,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="125" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1904" y="-565"/>
+            <point key="canvasLocation" x="-502" y="-1115"/>
         </scene>
         <scene sceneID="148">
             <objects>
@@ -282,6 +282,7 @@
                             <mask key="subviews">
                                 <include reference="153"/>
                                 <include reference="911"/>
+                                <include reference="1026"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="907"/>
@@ -289,6 +290,9 @@
                                 <include reference="912"/>
                                 <include reference="913"/>
                                 <include reference="914"/>
+                                <include reference="1027"/>
+                                <include reference="1028"/>
+                                <include reference="1029"/>
                             </mask>
                         </variation>
                         <subviews>
@@ -337,11 +341,29 @@
                                     <segue id="986" destination="918" kind="show"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1026" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="122" y="305" width="155" height="30"/>
+                                <state key="normal" title="Find Ray's">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </variation>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue id="1088" destination="1022" kind="show"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="153"/>
                                 <exclude reference="911"/>
+                                <exclude reference="1026"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="907"/>
@@ -349,6 +371,9 @@
                                 <exclude reference="912"/>
                                 <exclude reference="913"/>
                                 <exclude reference="914"/>
+                                <exclude reference="1027"/>
+                                <exclude reference="1028"/>
+                                <exclude reference="1029"/>
                             </mask>
                         </variation>
                         <constraints>
@@ -357,6 +382,9 @@
                             <constraint id="912" firstItem="911" firstAttribute="centerX" secondItem="150" secondAttribute="centerX"/>
                             <constraint id="913" firstItem="911" firstAttribute="width" secondItem="153" secondAttribute="width"/>
                             <constraint id="914" firstItem="911" firstAttribute="top" secondItem="150" secondAttribute="top" constant="225"/>
+                            <constraint id="1027" firstItem="1026" firstAttribute="width" secondItem="153" secondAttribute="width"/>
+                            <constraint id="1028" firstItem="1026" firstAttribute="centerX" secondItem="150" secondAttribute="centerX"/>
+                            <constraint id="1029" firstItem="1026" firstAttribute="top" secondItem="150" secondAttribute="top" constant="305"/>
                         </constraints>
                     </view>
                     <navigationItem title="Welcome to Ray's Hot Dogs" id="256" key="navigationItem"/>
@@ -597,6 +625,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="920" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1329" y="1172"/>
+        </scene>
+        <scene sceneID="1021">
+            <objects>
+                <viewController id="1022" sceneMemberID="viewController" customClass="MapViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1019"/>
+                        <viewControllerLayoutGuide type="bottom" id="1020"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1023">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1024" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1317" y="-404"/>
         </scene>
     </scenes>
     <resources>

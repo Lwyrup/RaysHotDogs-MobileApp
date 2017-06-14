@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs/Main.storyboard" />
-      <File FileName="RaysHotDogs/PictureViewController.cs" Line="49" Column="36" />
+      <File FileName="RaysHotDogs/MapViewController.cs" Line="1" Column="1" />
       <File FileName="RaysHotDogs Status" />
     </Files>
     <Pads>
@@ -11,7 +11,7 @@
           <Node name="RaysHotDogs" expanded="True">
             <Node name="RaysHotDogs" expanded="True">
               <Node name="ComponentReferenceFolder" expanded="True" />
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="MapViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>
