@@ -2,8 +2,20 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs/Main.storyboard" />
+      <File FileName="RaysHotDogs/PictureViewController.cs" Line="11" Column="10" />
       <File FileName="RaysHotDogs Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RaysHotDogs" expanded="True">
+            <Node name="RaysHotDogs" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.189D9258-620F-4424-9E10-30644DF615DA" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
