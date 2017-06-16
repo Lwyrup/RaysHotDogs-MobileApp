@@ -679,7 +679,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1106"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1109">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="widthClass=compact">
@@ -689,15 +689,36 @@
                                 <include reference="1135"/>
                                 <include reference="1136"/>
                             </mask>
+                            <mask key="constraints">
+                                <include reference="1152"/>
+                                <include reference="1153"/>
+                                <include reference="1154"/>
+                                <include reference="1156"/>
+                                <include reference="1159"/>
+                                <include reference="1160"/>
+                            </mask>
                         </variation>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet about Ray's!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1134" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="74" y="88" width="251" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet about Ray's!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1134" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="74" y="88" width="251" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1151" firstItem="1134" firstAttribute="width" constant="251"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1151"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <mask key="constraints">
+                                        <include reference="1151"/>
+                                    </mask>
+                                </variation>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="1135" translatesAutoresizingMaskIntoConstraints="NO" text="I love Ray's hot dogs!!!">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="1135" translatesAutoresizingMaskIntoConstraints="NO" text="I love Ray's hot dogs!!!" fixedFrame="YES">
                                 <rect key="frame" x="50" y="163" width="300" height="159"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -707,8 +728,24 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <constraints>
+                                    <constraint id="1155" firstItem="1135" firstAttribute="width" constant="300"/>
+                                    <constraint id="1157" firstItem="1135" firstAttribute="height" constant="159"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1155"/>
+                                        <exclude reference="1157"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1155"/>
+                                        <include reference="1157"/>
+                                    </mask>
+                                </variation>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1136" translatesAutoresizingMaskIntoConstraints="NO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1136" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="144" y="380" width="113" height="30"/>
                                 <state key="normal" title="Send tweet">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -718,8 +755,19 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="widthClass=compact" fixedFrame="YES">
+                                <variation key="widthClass=compact">
                                     <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                    <mask key="constraints">
+                                        <include reference="1158"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="1158" firstItem="1136" firstAttribute="width" constant="113"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1158"/>
+                                    </mask>
                                 </variation>
                             </button>
                         </subviews>
@@ -729,7 +777,23 @@
                                 <exclude reference="1135"/>
                                 <exclude reference="1136"/>
                             </mask>
+                            <mask key="constraints">
+                                <exclude reference="1152"/>
+                                <exclude reference="1153"/>
+                                <exclude reference="1154"/>
+                                <exclude reference="1156"/>
+                                <exclude reference="1159"/>
+                                <exclude reference="1160"/>
+                            </mask>
                         </variation>
+                        <constraints>
+                            <constraint id="1152" firstItem="1134" firstAttribute="centerX" secondItem="1109" secondAttribute="centerX"/>
+                            <constraint id="1153" firstItem="1134" firstAttribute="top" secondItem="1109" secondAttribute="top" constant="88"/>
+                            <constraint id="1154" firstItem="1135" firstAttribute="centerX" secondItem="1109" secondAttribute="centerX"/>
+                            <constraint id="1156" firstItem="1135" firstAttribute="top" secondItem="1109" secondAttribute="top" constant="163"/>
+                            <constraint id="1159" firstItem="1136" firstAttribute="centerX" secondItem="1109" secondAttribute="centerX"/>
+                            <constraint id="1160" firstItem="1136" firstAttribute="top" secondItem="1109" secondAttribute="top" constant="380"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="SendTweetButton" destination="1136" id="name-outlet-1136"/>
