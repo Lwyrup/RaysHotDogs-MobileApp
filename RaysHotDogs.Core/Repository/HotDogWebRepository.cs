@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Threading;
 using System.Threading.Tasks;
-using Microsoft;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using RaysHotDogs.Core.Model;
 using System.Collections.Generic;
 using System.Linq;
@@ -91,7 +88,5 @@ namespace RaysHotDogs.Core.Repository
                 }
             }
         }
-
-
     }
 }
