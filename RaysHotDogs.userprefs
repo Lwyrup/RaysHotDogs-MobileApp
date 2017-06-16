@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{6F0BDCC9-CC53-4230-BFD2-3F77AA5ECA29}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs/Main.storyboard" />
-      <File FileName="RaysHotDogs/TweetViewController.cs" Line="31" Column="36" />
+      <File FileName="RaysHotDogs.Core/Repository/HotDogWebRepository.cs" Line="88" Column="22" />
+      <File FileName="RaysHotDogs.Core/Repository/HotDogRepository.cs" Line="39" Column="21" />
+      <File FileName="RaysHotDogs.Core/Service/HotDogService.cs" Line="9" Column="3" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
