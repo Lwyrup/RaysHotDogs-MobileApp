@@ -1,11 +1,10 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
-using RaysHotDogs.android.Resources;
 
-namespace RaysHotDogs.android
+namespace RaysHotDogs.Android
 {
-    [Activity(Label = "Ray's Hot Dogs", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Rays Hot Dogs", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
