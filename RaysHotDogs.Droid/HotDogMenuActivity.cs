@@ -15,7 +15,7 @@ using RaysHotDogs.Droid.Adapters;
 
 namespace RaysHotDogs.Droid
 {
-    [Activity(Label = "HotDogMenuActivity", MainLauncher = true)]
+    [Activity(Label = "HotDogMenuActivity")]
     public class HotDogMenuActivity : Activity
     {
         ListView hotDogListView;
