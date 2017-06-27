@@ -61,7 +61,8 @@ namespace RaysHotDogs.Droid
 
         void AboutButton_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var intent = new Intent(this, typeof(AboutActivity));
+            StartActivity(intent);
         }
 
         void MapButton_Click(object sender, EventArgs e)

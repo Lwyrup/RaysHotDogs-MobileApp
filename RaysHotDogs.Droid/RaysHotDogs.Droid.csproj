@@ -59,6 +59,7 @@
     <Compile Include="HotDogMenuActivity.cs" />
     <Compile Include="Adapters\HotDogListAdapter.cs" />
     <Compile Include="MenuActivity.cs" />
+    <Compile Include="AboutActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -83,6 +84,7 @@
     <AndroidResource Include="Resources\layout\HotDogRowView.axml" />
     <AndroidResource Include="Resources\layout\MainMenu.axml" />
     <AndroidResource Include="Resources\drawable\homeimg.png" />
+    <AndroidResource Include="Resources\layout\AboutView.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
