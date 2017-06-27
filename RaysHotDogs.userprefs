@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{92B5D5AE-009A-49A5-AB05-6F22224C0965}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs.Droid/MainActivity.cs" Line="16" Column="12" />
+      <File FileName="RaysHotDogs.Droid/MainActivity.cs" Line="9" Column="6" />
+      <File FileName="RaysHotDogs.Droid/HotDogDetailActivity.cs" Line="15" Column="60" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

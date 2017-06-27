@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FCD972"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/hotDogImageView"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:text="Hot dog name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hotDogNameTextView"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#ff000000" />
+        <TextView
+            android:text="Short Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shortDescriptionTextView"
+            android:paddingTop="20dp"
+            android:textSize="16dp"
+            android:textColor="#ff000000" />
+        <TextView
+            android:text="Lorem ipsum dolor sit amet, vis te nusquam dolores. Dolore sensibus te sed. Eum in intellegat persequeris, posse animal apeirian id sit. His et hinc equidem, cum ut idque salutandi voluptatibus.      No has errem viris deleniti, te vel mollis maluisset disputando. Ei mei exerci prodesset. Mentitum disputationi interpretaris mel ad, sed possit tincidunt voluptatum ea. Per quot persius ne, putant aeterno est in, eam stet deserunt repudiandae ei. No sumo omittantur pro. Vix labore vocent vivendum an, nec eius constituto cu.      Ludus labore quaeque pri at, fabulas minimum contentiones te nec. Pri idque dictas propriae no, ea sit nibh mutat eirmod. Has oportere sapientem appellantur eu, melius argumentum consequuntur vim eu. Ad usu partem conceptam, an duo etiam labores admodum. Et has paulo torquatos.     "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTextView"
+            android:editable="false"
+            android:paddingTop="20dp"
+            android:textSize="12dp"
+            android:textColor="#ff000000" />
+        <TextView
+            android:text="Price: 1111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/priceTextView"
+            android:paddingTop="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#ff000000" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <Button
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancelButton"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp" />
+            <EditText
+                android:inputType="number"
+                android:text="1"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:id="@+id/amountEditText"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center" />
+            <Button
+                android:text="Order now!"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/orderButton"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

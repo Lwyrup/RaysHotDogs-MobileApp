@@ -7,8 +7,6 @@ namespace RaysHotDogs.Droid
     [Activity(Label = "Rays Hot Dogs", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

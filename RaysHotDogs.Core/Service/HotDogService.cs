@@ -7,7 +7,7 @@ namespace RaysHotDogs.Core.Service
 {
 	public class HotDogDataService
 	{
-		static HotDogWebRepository hotDogRepository = new HotDogWebRepository();
+		static HotDogRepository hotDogRepository = new HotDogRepository();
 		public HotDogDataService()
 		{
 		}
