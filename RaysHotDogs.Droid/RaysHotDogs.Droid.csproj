@@ -80,6 +80,8 @@
     <AndroidResource Include="Resources\layout\HotDogDetailView.axml" />
     <AndroidResource Include="Resources\layout\HotDogMenuView.axml" />
     <AndroidResource Include="Resources\layout\HotDogRowView.axml" />
+    <AndroidResource Include="Resources\layout\MainMenu.axml" />
+    <AndroidResource Include="Resources\drawable\homeimg.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
