@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
       <File FileName="RaysHotDogs.Droid/HotDogMenuActivity.cs" Line="36" Column="53" />
-      <File FileName="RaysHotDogs.Droid/Adapters/HotDogListAdapter.cs" Line="59" Column="101" />
+      <File FileName="RaysHotDogs.Droid/Adapters/HotDogListAdapter.cs" Line="62" Column="32" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

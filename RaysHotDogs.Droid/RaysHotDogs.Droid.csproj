@@ -79,6 +79,7 @@
     <AndroidResource Include="Resources\drawable\hotdog4.jpg" />
     <AndroidResource Include="Resources\layout\HotDogDetailView.axml" />
     <AndroidResource Include="Resources\layout\HotDogMenuView.axml" />
+    <AndroidResource Include="Resources\layout\HotDogRowView.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
