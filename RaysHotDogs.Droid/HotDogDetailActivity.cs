@@ -15,7 +15,7 @@ using RaysHotDogs.Droid.Utility;
 
 namespace RaysHotDogs.Droid
 {
-    [Activity(Label = "Hot Dog Detail", MainLauncher = true)]
+    [Activity(Label = "Hot Dog Detail")]
     public class HotDogDetailActivity : Activity
     {
         ImageView hotDogImageView;
