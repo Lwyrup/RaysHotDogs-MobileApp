@@ -34,6 +34,32 @@ namespace RaysHotDogs.Droid
 
             hotDogListView.Adapter = new HotDogListAdapter(this, allHotDogs);
             hotDogListView.FastScrollEnabled = true;
+
+            hotDogListView.ItemClick += HotDogListView_ItemClick;
+        }
+
+        void HotDogListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var hotDog = allHotDogs[e.Position];
+            var intent = new Intent(this, typeof(HotDogDetailActivity));
+            intent.PutExtra("selectedHotDogId", hotDog.HotDogId);
+
+            StartActivityForResult(intent, 100);
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (resultCode == Result.Ok && requestCode == 100)
+            {
+                var selectedHotDog = allHotDogs[data.GetIntExtra("selectedHotDogId", 1)];
+
+                var dialog = new AlertDialog.Builder(this);
+                dialog.SetTitle("Confirmation");
+                dialog.SetMessage(String.Format("You've added {0} order(s) of the {1} to your cart.", data.GetIntExtra("amount", 1), selectedHotDog.Name));
+                dialog.Show();
+            }
         }
     }
 }
