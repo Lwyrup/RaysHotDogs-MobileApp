@@ -60,6 +60,10 @@
     <Compile Include="Adapters\HotDogListAdapter.cs" />
     <Compile Include="MenuActivity.cs" />
     <Compile Include="AboutActivity.cs" />
+    <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\FavoriteHotDogFragment.cs" />
+    <Compile Include="Fragments\MeatLoversFragment.cs" />
+    <Compile Include="Fragments\VeggieLoversFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -85,11 +89,13 @@
     <AndroidResource Include="Resources\layout\MainMenu.axml" />
     <AndroidResource Include="Resources\drawable\homeimg.png" />
     <AndroidResource Include="Resources\layout\AboutView.axml" />
+    <AndroidResource Include="Resources\layout\FavoriteHotDogFragment.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Utility\" />
     <Folder Include="Adapters\" />
+    <Folder Include="Fragments\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RaysHotDogs.Core\RaysHotDogs.Core.csproj">

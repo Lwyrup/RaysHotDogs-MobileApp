@@ -1498,8 +1498,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c001b
 			public const int always = 2131492891;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int amountEditText = 2131492954;
+			// aapt resource value: 0x7f0c005b
+			public const int amountEditText = 2131492955;
 			
 			// aapt resource value: 0x7f0c0018
 			public const int beginning = 2131492888;
@@ -1510,8 +1510,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0050
 			public const int callTextView = 2131492944;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int cancelButton = 2131492953;
+			// aapt resource value: 0x7f0c005a
+			public const int cancelButton = 2131492954;
 			
 			// aapt resource value: 0x7f0c0063
 			public const int cancel_action = 2131492963;
@@ -1543,8 +1543,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0027
 			public const int default_activity_button = 2131492903;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int descriptionTextView = 2131492950;
+			// aapt resource value: 0x7f0c0057
+			public const int descriptionTextView = 2131492951;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int disableHome = 2131492876;
@@ -1570,14 +1570,14 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c000d
 			public const int homeAsUp = 2131492877;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int hotDogImageView = 2131492947;
-			
-			// aapt resource value: 0x7f0c005c
-			public const int hotDogListView = 2131492956;
-			
 			// aapt resource value: 0x7f0c0054
-			public const int hotDogNameTextView = 2131492948;
+			public const int hotDogImageView = 2131492948;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int hotDogListView = 2131492946;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int hotDogNameTextView = 2131492949;
 			
 			// aapt resource value: 0x7f0c0029
 			public const int icon = 2131492905;
@@ -1606,8 +1606,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c005d
 			public const int logoImageView = 2131492957;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int mainScrollView = 2131492946;
+			// aapt resource value: 0x7f0c0053
+			public const int mainScrollView = 2131492947;
 			
 			// aapt resource value: 0x7f0c0060
 			public const int mapButton = 2131492960;
@@ -1630,8 +1630,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int normal = 2131492874;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int orderButton = 2131492955;
+			// aapt resource value: 0x7f0c005c
+			public const int orderButton = 2131492956;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int parentPanel = 2131492909;
@@ -1639,8 +1639,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0051
 			public const int phoneNumberTextView = 2131492945;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int priceTextView = 2131492951;
+			// aapt resource value: 0x7f0c0058
+			public const int priceTextView = 2131492952;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int progress_circular = 2131492869;
@@ -1651,8 +1651,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c003b
 			public const int radio = 2131492923;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int relativeLayout1 = 2131492952;
+			// aapt resource value: 0x7f0c0059
+			public const int relativeLayout1 = 2131492953;
 			
 			// aapt resource value: 0x7f0c0014
 			public const int screen = 2131492884;
@@ -1699,8 +1699,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c004f
 			public const int select_dialog_listview = 2131492943;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int shortDescriptionTextView = 2131492949;
+			// aapt resource value: 0x7f0c0056
+			public const int shortDescriptionTextView = 2131492950;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int shortcut = 2131492922;
@@ -1894,55 +1894,58 @@ namespace RaysHotDogs.Droid
 			public const int AboutView = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int HotDogDetailView = 2130968602;
+			public const int FavoriteHotDogFragment = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int HotDogMenuView = 2130968603;
+			public const int HotDogDetailView = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int HotDogRowView = 2130968604;
+			public const int HotDogMenuView = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int Main = 2130968605;
+			public const int HotDogRowView = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int MainMenu = 2130968606;
+			public const int Main = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int notification_media_action = 2130968607;
+			public const int MainMenu = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int notification_media_cancel_action = 2130968608;
+			public const int notification_media_action = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int notification_template_big_media = 2130968609;
+			public const int notification_media_cancel_action = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int notification_template_big_media_narrow = 2130968610;
+			public const int notification_template_big_media = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int notification_template_lines = 2130968611;
+			public const int notification_template_big_media_narrow = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int notification_template_media = 2130968612;
+			public const int notification_template_lines = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int notification_template_part_chronometer = 2130968613;
+			public const int notification_template_media = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int notification_template_part_time = 2130968614;
+			public const int notification_template_part_chronometer = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int select_dialog_item_material = 2130968615;
+			public const int notification_template_part_time = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int select_dialog_multichoice_material = 2130968616;
+			public const int select_dialog_item_material = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int select_dialog_singlechoice_material = 2130968617;
+			public const int select_dialog_multichoice_material = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int support_simple_spinner_dropdown_item = 2130968618;
+			public const int select_dialog_singlechoice_material = 2130968618;
+			
+			// aapt resource value: 0x7f04002b
+			public const int support_simple_spinner_dropdown_item = 2130968619;
 			
 			static Layout()
 			{
