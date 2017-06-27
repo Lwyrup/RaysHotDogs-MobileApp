@@ -58,6 +58,7 @@
     <Compile Include="Utility\ImageHelper.cs" />
     <Compile Include="HotDogMenuActivity.cs" />
     <Compile Include="Adapters\HotDogListAdapter.cs" />
+    <Compile Include="MenuActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
