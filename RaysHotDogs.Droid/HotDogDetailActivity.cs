@@ -36,7 +36,9 @@ namespace RaysHotDogs.Droid
             SetContentView(Resource.Layout.HotDogDetailView);
 
             dataService = new HotDogDataService();
-            selectedHotDog = dataService.getHotDogById(1);
+            var selectedHotDogId = Intent.Extras.GetInt("selectedHotDogId");
+            selectedHotDog = dataService.getHotDogById(selectedHotDogId);
+
             FindViews();
             BindData();
             HandleEvents();
@@ -76,10 +78,12 @@ namespace RaysHotDogs.Droid
         {
             var amount = Int32.Parse(amountEditText.Text);
 
-            var dialog = new AlertDialog.Builder(this);
-            dialog.SetTitle("Confirmation");
-            dialog.SetMessage("Your hot dog(s) have been added to your cart!");
-            dialog.Show();
+            var intent = new Intent();
+            intent.PutExtra("selectedHotDogId", selectedHotDog.HotDogId);
+            intent.PutExtra("amount", amount);
+
+            SetResult(Result.Ok, intent);
+            this.Finish();
         }
 
         private void CancelButton_Click(object sender, EventArgs e)
