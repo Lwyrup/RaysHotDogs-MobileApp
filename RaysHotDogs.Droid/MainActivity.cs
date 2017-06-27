@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace RaysHotDogs.Droid
 {
-    [Activity(Label = "Rays Hot Dogs", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Rays Hot Dogs", Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

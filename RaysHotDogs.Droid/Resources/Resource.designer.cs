@@ -1991,11 +1991,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f060012
 			public const int abc_toolbar_collapse_description = 2131099666;
 			
-			// aapt resource value: 0x7f060015
-			public const int app_name = 2131099669;
-			
 			// aapt resource value: 0x7f060014
-			public const int hello = 2131099668;
+			public const int app_name = 2131099668;
 			
 			// aapt resource value: 0x7f060013
 			public const int status_bar_notification_info_overflow = 2131099667;
