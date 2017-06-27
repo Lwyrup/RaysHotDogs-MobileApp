@@ -59,7 +59,7 @@ namespace RaysHotDogs.Droid
             hotDogNameTextView.Text = selectedHotDog.Name;
             shortDescriptionTextView.Text = selectedHotDog.ShortDescription;
             //descriptionTextView.Text = selectedHotDog.Description;
-            priceTextView.Text = "Price: " + selectedHotDog.Price;
+            priceTextView.Text = "Price: " + String.Format("{0:0.00}", selectedHotDog.Price);
 
             var imageBitmap = ImageHelper.GetImageBitmapFromUrl("http://gillcleerenpluralsight.blob.core.windows.net/files/" + selectedHotDog.ImagePath + ".jpg");
             hotDogImageView.SetImageBitmap(imageBitmap);
