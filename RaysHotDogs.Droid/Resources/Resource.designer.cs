@@ -1411,25 +1411,31 @@ namespace RaysHotDogs.Droid
 			public const int abc_textfield_search_material = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int homeimg = 2130837573;
+			public const int favoriteicon = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int hotdog1 = 2130837574;
+			public const int homeimg = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int hotdog2 = 2130837575;
+			public const int hotdog1 = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int hotdog3 = 2130837576;
+			public const int hotdog2 = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int hotdog4 = 2130837577;
+			public const int hotdog3 = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int meatlovericon = 2130837578;
+			public const int hotdog4 = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int notification_template_icon_bg = 2130837579;
+			public const int meatlovericon = 2130837579;
+			
+			// aapt resource value: 0x7f02004d
+			public const int notification_template_icon_bg = 2130837581;
+			
+			// aapt resource value: 0x7f02004c
+			public const int veggielovericon = 2130837580;
 			
 			static Drawable()
 			{

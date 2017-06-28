@@ -91,6 +91,8 @@
     <AndroidResource Include="Resources\layout\AboutView.axml" />
     <AndroidResource Include="Resources\layout\HotDogFragment.axml" />
     <AndroidResource Include="Resources\drawable\meatlovericon.png" />
+    <AndroidResource Include="Resources\drawable\veggielovericon.png" />
+    <AndroidResource Include="Resources\drawable\favoriteicon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

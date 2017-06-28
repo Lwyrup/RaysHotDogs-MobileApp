@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{92B5D5AE-009A-49A5-AB05-6F22224C0965}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs.Droid/HotDogMenuActivity.cs">
     <Files>
       <File FileName="RaysHotDogs.Droid/Fragments/BaseFragment.cs" Line="55" Column="5" />
       <File FileName="RaysHotDogs Status" />
+      <File FileName="RaysHotDogs.Droid/HotDogMenuActivity.cs" Line="30" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.RaysHotDogs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.189D9258-620F-4424-9E10-30644DF615DA" />
