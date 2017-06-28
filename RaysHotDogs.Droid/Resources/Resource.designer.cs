@@ -1426,7 +1426,10 @@ namespace RaysHotDogs.Droid
 			public const int hotdog4 = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int notification_template_icon_bg = 2130837578;
+			public const int meatlovericon = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int notification_template_icon_bg = 2130837579;
 			
 			static Drawable()
 			{
@@ -1441,11 +1444,11 @@ namespace RaysHotDogs.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0061
-			public const int aboutButton = 2131492961;
-			
 			// aapt resource value: 0x7f0c0062
-			public const int action0 = 2131492962;
+			public const int aboutButton = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int action0 = 2131492963;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int action_bar = 2131492929;
@@ -1471,8 +1474,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0042
 			public const int action_context_bar = 2131492930;
 			
-			// aapt resource value: 0x7f0c0066
-			public const int action_divider = 2131492966;
+			// aapt resource value: 0x7f0c0067
+			public const int action_divider = 2131492967;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1513,17 +1516,17 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c005a
 			public const int cancelButton = 2131492954;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int cancel_action = 2131492963;
+			// aapt resource value: 0x7f0c0064
+			public const int cancel_action = 2131492964;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int cartButton = 2131492958;
+			// aapt resource value: 0x7f0c005f
+			public const int cartButton = 2131492959;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int checkbox = 2131492921;
 			
-			// aapt resource value: 0x7f0c0069
-			public const int chronometer = 2131492969;
+			// aapt resource value: 0x7f0c006a
+			public const int chronometer = 2131492970;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int collapseActionView = 2131492892;
@@ -1555,14 +1558,17 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0019
 			public const int end = 2131492889;
 			
-			// aapt resource value: 0x7f0c006e
-			public const int end_padder = 2131492974;
+			// aapt resource value: 0x7f0c006f
+			public const int end_padder = 2131492975;
 			
 			// aapt resource value: 0x7f0c0025
 			public const int expand_activities_button = 2131492901;
 			
 			// aapt resource value: 0x7f0c0038
 			public const int expanded_menu = 2131492920;
+			
+			// aapt resource value: 0x7f0c005d
+			public const int fragmentContainer = 2131492957;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int home = 2131492868;
@@ -1588,14 +1594,14 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0026
 			public const int image = 2131492902;
 			
-			// aapt resource value: 0x7f0c006d
-			public const int info = 2131492973;
+			// aapt resource value: 0x7f0c006e
+			public const int info = 2131492974;
 			
-			// aapt resource value: 0x7f0c0067
-			public const int line1 = 2131492967;
+			// aapt resource value: 0x7f0c0068
+			public const int line1 = 2131492968;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int line3 = 2131492971;
+			// aapt resource value: 0x7f0c006c
+			public const int line3 = 2131492972;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int listMode = 2131492873;
@@ -1603,17 +1609,17 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0028
 			public const int list_item = 2131492904;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int logoImageView = 2131492957;
+			// aapt resource value: 0x7f0c005e
+			public const int logoImageView = 2131492958;
 			
 			// aapt resource value: 0x7f0c0053
 			public const int mainScrollView = 2131492947;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int mapButton = 2131492960;
+			// aapt resource value: 0x7f0c0061
+			public const int mapButton = 2131492961;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int media_actions = 2131492965;
+			// aapt resource value: 0x7f0c0066
+			public const int media_actions = 2131492966;
 			
 			// aapt resource value: 0x7f0c001a
 			public const int middle = 2131492890;
@@ -1729,8 +1735,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0017
 			public const int src_over = 2131492887;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int status_bar_latest_event_content = 2131492964;
+			// aapt resource value: 0x7f0c0065
+			public const int status_bar_latest_event_content = 2131492965;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int submit_area = 2131492940;
@@ -1738,20 +1744,20 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c000b
 			public const int tabMode = 2131492875;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int takePictureButton = 2131492959;
+			// aapt resource value: 0x7f0c0060
+			public const int takePictureButton = 2131492960;
 			
-			// aapt resource value: 0x7f0c006c
-			public const int text = 2131492972;
+			// aapt resource value: 0x7f0c006d
+			public const int text = 2131492973;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int text2 = 2131492970;
+			// aapt resource value: 0x7f0c006b
+			public const int text2 = 2131492971;
 			
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
 			
-			// aapt resource value: 0x7f0c0068
-			public const int time = 2131492968;
+			// aapt resource value: 0x7f0c0069
+			public const int time = 2131492969;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int title = 2131492906;

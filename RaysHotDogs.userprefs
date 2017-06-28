@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{92B5D5AE-009A-49A5-AB05-6F22224C0965}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="RaysHotDogs Status">
     <Files>
-      <File FileName="RaysHotDogs.Droid/Fragments/BaseFragment.cs" Line="29" Column="24" />
-      <File FileName="RaysHotDogs.Droid/Fragments/FavoriteHotDogFragment.cs" Line="43" Column="10" />
-      <File FileName="RaysHotDogs.Droid/Fragments/MeatLoversFragment.cs" Line="42" Column="66" />
-      <File FileName="RaysHotDogs.Droid/Fragments/VeggieLoversFragment.cs" Line="42" Column="66" />
+      <File FileName="RaysHotDogs.Droid/HotDogMenuActivity.cs" Line="31" Column="13" />
+      <File FileName="RaysHotDogs.Droid/Fragments/FavoriteHotDogFragment.cs" Line="41" Column="73" />
       <File FileName="RaysHotDogs Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

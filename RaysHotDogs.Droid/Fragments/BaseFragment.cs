@@ -28,7 +28,7 @@ namespace RaysHotDogs.Droid.Fragments
 
         protected void FindViews()
         {
-            listView.FindViewById<ListView>(Resource.Id.hotDogListView);
+            listView = this.View.FindViewById<ListView>(Resource.Id.hotDogListView);
         }
 
 		protected void HandleEvents()
