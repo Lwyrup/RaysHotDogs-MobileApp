@@ -46,5 +46,20 @@ namespace RaysHotDogs.Droid.Fragments
 
             StartActivityForResult(intent, 100);
         }
+
+        public override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+			if (resultCode == Result.Ok && requestCode == 100)
+			{
+                var selectedHotDog = hotDogDataService.getHotDogById(data.GetIntExtra("selectedHotDogId", 1));
+
+				var dialog = new AlertDialog.Builder(this.Context);
+				dialog.SetTitle("Confirmation");
+				dialog.SetMessage(String.Format("You've added {0} order(s) of the {1} to your cart.", data.GetIntExtra("amount", 1), selectedHotDog.Name));
+				dialog.Show();
+			}
+        }
     }
 }
