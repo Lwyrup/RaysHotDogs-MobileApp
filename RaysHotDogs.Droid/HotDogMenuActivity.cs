@@ -30,9 +30,9 @@ namespace RaysHotDogs.Droid
             var colorDrawable = new ColorDrawable(Color.DarkGray);
             ActionBar.SetStackedBackgroundDrawable(colorDrawable);
 
-            AddTab("Favorites", Resource.Drawable.homeimg, new FavoriteHotDogFragment());
+            AddTab("Favorites", Resource.Drawable.favoriteicon, new FavoriteHotDogFragment());
             AddTab("Meat Lovers", Resource.Drawable.meatlovericon, new MeatLoversFragment());
-            AddTab("Veggie Lovers", Resource.Drawable.homeimg, new VeggieLoversFragment());
+            AddTab("Veggie Lovers", Resource.Drawable.veggielovericon, new VeggieLoversFragment());
 
             SetContentView(Resource.Layout.HotDogMenuView);
         }
