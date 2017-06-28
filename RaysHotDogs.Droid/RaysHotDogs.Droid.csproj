@@ -64,6 +64,7 @@
     <Compile Include="Fragments\FavoriteHotDogFragment.cs" />
     <Compile Include="Fragments\MeatLoversFragment.cs" />
     <Compile Include="Fragments\VeggieLoversFragment.cs" />
+    <Compile Include="TakePictureActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -1664,7 +1664,7 @@ namespace RaysHotDogs.Droid
 			public const int radio = 2131492923;
 			
 			// aapt resource value: 0x7f0c0071
-			public const int rayPictureImageView1 = 2131492977;
+			public const int rayPictureImageView = 2131492977;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int relativeLayout1 = 2131492952;

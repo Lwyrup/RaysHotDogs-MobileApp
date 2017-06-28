@@ -72,7 +72,8 @@ namespace RaysHotDogs.Droid
 
         void TakePictureButton_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var intent = new Intent(this, typeof(TakePictureActivity));
+            StartActivity(intent);
         }
     }
 }
