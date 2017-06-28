@@ -89,7 +89,7 @@
     <AndroidResource Include="Resources\layout\MainMenu.axml" />
     <AndroidResource Include="Resources\drawable\homeimg.png" />
     <AndroidResource Include="Resources\layout\AboutView.axml" />
-    <AndroidResource Include="Resources\layout\FavoriteHotDogFragment.axml" />
+    <AndroidResource Include="Resources\layout\HotDogFragment.axml" />
     <AndroidResource Include="Resources\drawable\meatlovericon.png" />
   </ItemGroup>
   <ItemGroup>

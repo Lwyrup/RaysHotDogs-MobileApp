@@ -1501,8 +1501,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c001b
 			public const int always = 2131492891;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int amountEditText = 2131492955;
+			// aapt resource value: 0x7f0c005a
+			public const int amountEditText = 2131492954;
 			
 			// aapt resource value: 0x7f0c0018
 			public const int beginning = 2131492888;
@@ -1513,8 +1513,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0050
 			public const int callTextView = 2131492944;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int cancelButton = 2131492954;
+			// aapt resource value: 0x7f0c0059
+			public const int cancelButton = 2131492953;
 			
 			// aapt resource value: 0x7f0c0064
 			public const int cancel_action = 2131492964;
@@ -1546,8 +1546,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0027
 			public const int default_activity_button = 2131492903;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int descriptionTextView = 2131492951;
+			// aapt resource value: 0x7f0c0056
+			public const int descriptionTextView = 2131492950;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int disableHome = 2131492876;
@@ -1576,14 +1576,14 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c000d
 			public const int homeAsUp = 2131492877;
 			
+			// aapt resource value: 0x7f0c0053
+			public const int hotDogImageView = 2131492947;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int hotDogListView = 2131492956;
+			
 			// aapt resource value: 0x7f0c0054
-			public const int hotDogImageView = 2131492948;
-			
-			// aapt resource value: 0x7f0c0052
-			public const int hotDogListView = 2131492946;
-			
-			// aapt resource value: 0x7f0c0055
-			public const int hotDogNameTextView = 2131492949;
+			public const int hotDogNameTextView = 2131492948;
 			
 			// aapt resource value: 0x7f0c0029
 			public const int icon = 2131492905;
@@ -1612,8 +1612,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c005e
 			public const int logoImageView = 2131492958;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int mainScrollView = 2131492947;
+			// aapt resource value: 0x7f0c0052
+			public const int mainScrollView = 2131492946;
 			
 			// aapt resource value: 0x7f0c0061
 			public const int mapButton = 2131492961;
@@ -1636,8 +1636,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int normal = 2131492874;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int orderButton = 2131492956;
+			// aapt resource value: 0x7f0c005b
+			public const int orderButton = 2131492955;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int parentPanel = 2131492909;
@@ -1645,8 +1645,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0051
 			public const int phoneNumberTextView = 2131492945;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int priceTextView = 2131492952;
+			// aapt resource value: 0x7f0c0057
+			public const int priceTextView = 2131492951;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int progress_circular = 2131492869;
@@ -1657,8 +1657,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c003b
 			public const int radio = 2131492923;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int relativeLayout1 = 2131492953;
+			// aapt resource value: 0x7f0c0058
+			public const int relativeLayout1 = 2131492952;
 			
 			// aapt resource value: 0x7f0c0014
 			public const int screen = 2131492884;
@@ -1705,8 +1705,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c004f
 			public const int select_dialog_listview = 2131492943;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int shortDescriptionTextView = 2131492950;
+			// aapt resource value: 0x7f0c0055
+			public const int shortDescriptionTextView = 2131492949;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int shortcut = 2131492922;
@@ -1900,10 +1900,10 @@ namespace RaysHotDogs.Droid
 			public const int AboutView = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int FavoriteHotDogFragment = 2130968602;
+			public const int HotDogDetailView = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int HotDogDetailView = 2130968603;
+			public const int HotDogFragment = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
 			public const int HotDogMenuView = 2130968604;

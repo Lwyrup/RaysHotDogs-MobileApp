@@ -39,7 +39,7 @@ namespace RaysHotDogs.Droid.Fragments
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-            return inflater.Inflate(Resource.Layout.FavoriteHotDogFragment, container, false);
+            return inflater.Inflate(Resource.Layout.HotDogFragment, container, false);
         }
     }
 }
