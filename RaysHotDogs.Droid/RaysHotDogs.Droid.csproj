@@ -93,6 +93,7 @@
     <AndroidResource Include="Resources\drawable\meatlovericon.png" />
     <AndroidResource Include="Resources\drawable\veggielovericon.png" />
     <AndroidResource Include="Resources\drawable\favoriteicon.png" />
+    <AndroidResource Include="Resources\layout\TakePictureView.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

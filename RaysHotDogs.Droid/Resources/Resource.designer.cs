@@ -1663,6 +1663,9 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c003b
 			public const int radio = 2131492923;
 			
+			// aapt resource value: 0x7f0c0071
+			public const int rayPictureImageView1 = 2131492977;
+			
 			// aapt resource value: 0x7f0c0058
 			public const int relativeLayout1 = 2131492952;
 			
@@ -1761,6 +1764,9 @@ namespace RaysHotDogs.Droid
 			
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
+			
+			// aapt resource value: 0x7f0c0070
+			public const int textView1 = 2131492976;
 			
 			// aapt resource value: 0x7f0c0069
 			public const int time = 2131492969;
@@ -1958,6 +1964,9 @@ namespace RaysHotDogs.Droid
 			
 			// aapt resource value: 0x7f04002b
 			public const int support_simple_spinner_dropdown_item = 2130968619;
+			
+			// aapt resource value: 0x7f04002c
+			public const int TakePictureView = 2130968620;
 			
 			static Layout()
 			{
