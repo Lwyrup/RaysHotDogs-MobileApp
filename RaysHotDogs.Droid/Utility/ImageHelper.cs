@@ -24,5 +24,26 @@ namespace RaysHotDogs.Droid.Utility
             }
             return imageBitmap;
         }
+
+        public static Bitmap GetImageBitmapFromFilePath(string fileName, int width, int height)
+        {
+            BitmapFactory.Options options = new BitmapFactory.Options { InJustDecodeBounds = true };
+            BitmapFactory.DecodeFile(fileName, options);
+
+            int outputHeight = options.OutHeight;
+            int outputWidth = options.OutWidth;
+            int inSampleSize = 1;
+
+            if (outputHeight > height || outputWidth > width)
+            {
+                inSampleSize = outputWidth > outputHeight ? outputHeight / height : outputWidth / width;
+            }
+
+            options.InSampleSize = inSampleSize;
+            options.InJustDecodeBounds = false;
+            Bitmap resizedBitmap = BitmapFactory.DecodeFile(fileName, options);
+
+            return resizedBitmap;
+        }
     }
 }
