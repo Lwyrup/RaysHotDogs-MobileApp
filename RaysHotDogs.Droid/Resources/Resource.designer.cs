@@ -1573,6 +1573,9 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0038
 			public const int expanded_menu = 2131492920;
 			
+			// aapt resource value: 0x7f0c0070
+			public const int externalMapButton = 2131492976;
+			
 			// aapt resource value: 0x7f0c005d
 			public const int fragmentContainer = 2131492957;
 			
@@ -1663,8 +1666,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c003b
 			public const int radio = 2131492923;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int rayPictureImageView = 2131492977;
+			// aapt resource value: 0x7f0c0072
+			public const int rayPictureImageView = 2131492978;
 			
 			// aapt resource value: 0x7f0c0058
 			public const int relativeLayout1 = 2131492952;
@@ -1765,8 +1768,8 @@ namespace RaysHotDogs.Droid
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
 			
-			// aapt resource value: 0x7f0c0070
-			public const int textView1 = 2131492976;
+			// aapt resource value: 0x7f0c0071
+			public const int textView1 = 2131492977;
 			
 			// aapt resource value: 0x7f0c0069
 			public const int time = 2131492969;
@@ -1954,19 +1957,22 @@ namespace RaysHotDogs.Droid
 			public const int notification_template_part_time = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int select_dialog_item_material = 2130968616;
+			public const int RayMapView = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int select_dialog_multichoice_material = 2130968617;
+			public const int select_dialog_item_material = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int select_dialog_singlechoice_material = 2130968618;
+			public const int select_dialog_multichoice_material = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int support_simple_spinner_dropdown_item = 2130968619;
+			public const int select_dialog_singlechoice_material = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int TakePictureView = 2130968620;
+			public const int support_simple_spinner_dropdown_item = 2130968620;
+			
+			// aapt resource value: 0x7f04002d
+			public const int TakePictureView = 2130968621;
 			
 			static Layout()
 			{

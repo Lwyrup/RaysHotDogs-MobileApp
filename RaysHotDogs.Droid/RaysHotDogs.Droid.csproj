@@ -65,6 +65,7 @@
     <Compile Include="Fragments\MeatLoversFragment.cs" />
     <Compile Include="Fragments\VeggieLoversFragment.cs" />
     <Compile Include="TakePictureActivity.cs" />
+    <Compile Include="RayMapActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -95,6 +96,7 @@
     <AndroidResource Include="Resources\drawable\veggielovericon.png" />
     <AndroidResource Include="Resources\drawable\favoriteicon.png" />
     <AndroidResource Include="Resources\layout\TakePictureView.axml" />
+    <AndroidResource Include="Resources\layout\RayMapView.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

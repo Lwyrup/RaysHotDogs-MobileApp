@@ -67,7 +67,8 @@ namespace RaysHotDogs.Droid
 
         void MapButton_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var intent = new Intent(this, typeof(RayMapActivity));
+            StartActivity(intent);
         }
 
         void TakePictureButton_Click(object sender, EventArgs e)
